@@ -37,78 +37,84 @@ OR manually:
 - cd path\to\HABIT_TRACKER
 
 ### Step 3 (Optional) Create Virtual Environment
-- python -m venv venv
-- venv\Scripts\activate
+```python -m venv venv```
+
+```venv\Scripts\activate```
 
 ### Step 4 Run the App
 #### From inside the HABIT_TRACKER folder:
-- python -m app.main
-- If needed:
-- python3 -m app.main
+```python -m app.main```
+
+If needed:
+```python3 -m app.main```
 
 - The app will start and show the menu.
 
 ### Step 5 Running Tests
 From the HABIT_TRACKER folder:
-- python -m unittest discover -s tests -p "*.py"
+``` python -m unittest discover -s tests -p "*.py" ```
 
 
 
 ## METHOD 2: Clone Using Git
 ### Step 1 Clone the Repository
-- git clone 
-- cd HABIT_TRACKER
+
+git clone 
+
+```cd HABIT_TRACKER```
 
 ### Step 2 Install (Optional Virtual Environment)
-- python -m venv venv
-- venv\Scripts\activate
+
+``` python -m venv venv ```
+
+``` venv\Scripts\activate ```
 
 ### Step 3 Run the App
-- python -m app.main
+``` python -m app.main ```
 
 
 ### Step 4 Running Tests
 From the HABIT_TRACKER folder:
-- python -m unittest discover -s tests -p "*.py"
+``` python -m unittest discover -s tests -p "*.py" ```
 
 
 # IMPORTANT:
-Run this command from the folder.Because the app is built from multiple modules, you need to launch it from the project’s main folder so it can find all the files it depends on. First, open a terminal and change into the project directory use your downloaded folder name. Then run the main program file to start the app.
+- Run this command from the folder.Because the app is built from multiple modules, you need to launch it from the project’s main folder so it can find all the files it depends on. First, open a terminal and change into the project directory use your downloaded folder name. Then run the main program file to start the app.
 
 
 # Running Unit Tests
 
 ## To run all tests:
-python -m unittest discover -s tests -p "*.py"
+``` python -m unittest discover -s tests -p "*.py" ```
 
 ## Tests:
 
-Filtering daily vs weekly habits
+- Filtering daily vs weekly habits
 
-Longest daily streak
+- Longest daily streak
 
-Longest weekly streak
+- Longest weekly streak
 
-Insert habit and checkoff
+- Insert habit and checkoff
 
-Cascade delete behavior
+- Cascade delete behavior
 
-Duplicate daily checkoff prevention
+- Duplicate daily checkoff prevention
 
 
 ## The application will:
 
-Automatically create the SQLite database (habits.db)
+- Automatically create the SQLite database (habits.db)
 
-Create required tables
+- Create required tables
 
-Insert example habits and demo checkoffs
+- Insert example habits and demo checkoffs
 
-Display the main menu
+- Display the main menu
 
 
 ## Project Structure
-
+```
 HABIT_TRACKER/
 ├── app/                    # App code
 │   ├── core/               # Habit + analytics logic
@@ -118,7 +124,7 @@ HABIT_TRACKER/
 ├── tests/                  # Unit tests
 ├── habits.db               # Auto created database
 └── requirements.txt        # Dependencies
-
+```
 
 # Example Usage
 
