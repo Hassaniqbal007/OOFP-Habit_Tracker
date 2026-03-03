@@ -59,7 +59,7 @@ From the HABIT_TRACKER folder:
 ## METHOD 2: Clone Using Git
 ### Step 1 Clone the Repository
 
-git clone 
+git clone https://github.com/Hassaniqbal007/OOFP-Habit_Tracker.git
 
 ```cd HABIT_TRACKER```
 
